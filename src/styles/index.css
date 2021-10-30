@@ -14,4 +14,133 @@ body {
     width: 100%;
     min-height: 100vh;
     margin: 0;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.App {
+    @apply w-11/12 mx-auto py-10 max-w-screen-lg min-h-screen center;
+}
+
+.bright-blue-bg {
+    background-color: hsl(246, 80%, 60%);
+}
+
+.dark-blue-bg {
+    background-color: hsl(235, 46%, 20%);
+}
+
+.desaturated-blue {
+    color: hsl(235, 45%, 61%);
+}
+
+.pale-blue {
+    color: hsl(236, 100%, 87%)
+}
+
+.light-orange-bg {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.soft-blue-bg {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.light-red-bg {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.lime-green-bg {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.violet-bg {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.yellow-bg {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.white-border {
+    border-color: white;
+}
+
+.center {
+    @apply flex justify-between items-center;
+}
+
+.ModalContainer {
+    @apply mx-auto;
+}
+
+.profile {
+    @apply bg-blue-500 rounded-2xl my-5 dark-blue-bg;
+}
+
+.profile-header {
+    @apply bright-blue-bg flex justify-start items-center p-8 rounded-2xl;
+}
+
+.profile-header-photo {
+    @apply w-1/5;
+}
+
+.profile-header-photo-img {
+    @apply max-w-full rounded-full border-2 white-border;
+}
+
+.profile-header-text {
+    @apply px-5;
+}
+
+.profile-header-text-report {
+    @apply pale-blue text-sm;
+}
+
+.profile-header-text-name {
+    @apply pale-blue text-2xl font-normal;
+}
+
+.profile-footer {
+    @apply flex justify-between px-8 py-5;
+}
+
+.profile-footer-btn {
+    @apply desaturated-blue;
+}
+
+.profile-footer-btn:hover {
+    @apply pale-blue;
+}
+
+.modal-stat {
+    @apply my-5 rounded-2xl;
+}
+
+.modal-stat-header {
+    @apply h-10 relative z-10 overflow-y-hidden;
+}
+
+.modal-stat-header-img {
+    @apply block absolute -top-2 right-2 z-20;
+}
+
+.modal-stat-footer {
+    @apply dark-blue-bg rounded-2xl p-5 block relative z-30;
+}
+
+.modal-stat-footer-activity {
+    @apply font-bold pale-blue;
+}
+
+.modal-stat-footer-options {
+    @apply cursor-pointer;
+}
+
+.modal-stat-footer-bottom-time {
+    @apply text-2xl font-light pale-blue;
+}
+
+.modal-stat-footer-bottom-last {
+    @apply desaturated-blue;
 }

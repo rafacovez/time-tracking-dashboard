@@ -1,9 +1,10 @@
 import React from "react";
+import ModalContainer from "./components/ModalContainer";
 
 function App() {
     return (
         <div className="App">
-            <h1>Hello world!</h1>
+            <ModalContainer/>
         </div>
     );
 }

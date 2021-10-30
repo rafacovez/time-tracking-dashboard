@@ -1,11 +1,11 @@
 {
-  "name": "fullstack-webdev-template-v2",
+  "name": "time-tracking-dashboard",
   "version": "0.1.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "name": "fullstack-webdev-template-v2",
+      "name": "time-tracking-dashboard",
       "version": "0.1.0",
       "dependencies": {
         "@craco/craco": "^6.4.0",
