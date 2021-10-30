@@ -17,6 +17,10 @@ body {
     background-color: hsl(226, 43%, 10%);
 }
 
+.center {
+    @apply flex justify-center items-center;
+}
+
 .App {
     @apply w-11/12 mx-auto py-10 max-w-screen-lg min-h-screen center;
 }
@@ -65,24 +69,20 @@ body {
     border-color: white;
 }
 
-.center {
-    @apply flex justify-between items-center;
-}
-
 .ModalContainer {
-    @apply mx-auto;
+    @apply grid gap-5 grid-flow-row grid-cols-1 lg:grid-cols-4;
 }
 
 .profile {
-    @apply bg-blue-500 rounded-2xl my-5 dark-blue-bg;
+    @apply bg-blue-500 rounded-2xl dark-blue-bg lg:row-span-2;
 }
 
 .profile-header {
-    @apply bright-blue-bg flex justify-start items-center p-8 rounded-2xl;
+    @apply bright-blue-bg flex justify-start items-center p-8 rounded-2xl lg:flex-col lg:items-start;
 }
 
 .profile-header-photo {
-    @apply w-1/5;
+    @apply w-1/5 lg:w-2/5;
 }
 
 .profile-header-photo-img {
@@ -90,7 +90,7 @@ body {
 }
 
 .profile-header-text {
-    @apply px-5;
+    @apply px-5 lg:px-0 lg:py-5;
 }
 
 .profile-header-text-report {
@@ -98,15 +98,15 @@ body {
 }
 
 .profile-header-text-name {
-    @apply pale-blue text-2xl font-normal;
+    @apply pale-blue text-2xl font-normal lg:text-3xl;
 }
 
 .profile-footer {
-    @apply flex justify-between px-8 py-5;
+    @apply flex justify-between px-8 py-5 lg:flex-col items-start;
 }
 
 .profile-footer-btn {
-    @apply desaturated-blue;
+    @apply desaturated-blue my-1;
 }
 
 .profile-footer-btn:hover {
@@ -114,7 +114,11 @@ body {
 }
 
 .modal-stat {
-    @apply my-5 rounded-2xl;
+    @apply rounded-2xl;
+}
+
+.modal-stat:hover {
+    @apply cursor-pointer opacity-80;
 }
 
 .modal-stat-header {
@@ -129,16 +133,24 @@ body {
     @apply dark-blue-bg rounded-2xl p-5 block relative z-30;
 }
 
-.modal-stat-footer-activity {
+.modal-stat-footer-top {
+    @apply flex justify-between items-center;
+}
+
+.modal-stat-footer-top-activity {
     @apply font-bold pale-blue;
 }
 
-.modal-stat-footer-options {
-    @apply cursor-pointer;
+.modal-stat-footer-top-options {
+    @apply p-1 cursor-pointer;
+}
+
+.modal-stat-footer-bottom {
+    @apply flex justify-between items-center mt-2 lg:flex-col lg:items-start;
 }
 
 .modal-stat-footer-bottom-time {
-    @apply text-2xl font-light pale-blue;
+    @apply text-2xl font-light pale-blue lg:text-5xl lg:mt-4;
 }
 
 .modal-stat-footer-bottom-last {

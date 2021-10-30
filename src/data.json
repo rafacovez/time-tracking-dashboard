@@ -1,7 +1,8 @@
 [
   {
     "title": "Work",
-    "iconSrc": "iconWork",
+    "classes": "modal-stat light-orange-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-work.svg",
     "timeframes": {
       "daily": {
         "current": 5,
@@ -19,7 +20,8 @@
   },
   {
     "title": "Play",
-    "iconSrc": "iconPlay",
+    "classes": "modal-stat soft-blue-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-play.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -37,7 +39,8 @@
   },
   {
     "title": "Study",
-    "iconSrc": "iconStudy",
+    "classes": "modal-stat light-red-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-study.svg",
     "timeframes": {
       "daily": {
         "current": 0,
@@ -55,7 +58,8 @@
   },
   {
     "title": "Exercise",
-    "iconSrc": "iconExercise",
+    "classes": "modal-stat lime-green-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-exercise.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -73,7 +77,8 @@
   },
   {
     "title": "Social",
-    "iconSrc": "iconSocial",
+    "classes": "modal-stat violet-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-social.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -91,7 +96,8 @@
   },
   {
     "title": "Self Care",
-    "iconSrc": "iconSelfcare",
+    "classes": "modal-stat yellow-bg",
+    "iconUrl": "https://raw.githubusercontent.com/rafdidact/time-tracking-dashboard/a7084e967bd088942c2966657d76fddb6f155a0c/src/images/icon-self-care.svg",
     "timeframes": {
       "daily": {
         "current": 0,

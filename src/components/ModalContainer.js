@@ -1,12 +1,6 @@
 import React from "react"
 import JeremyPhoto from "../images/image-jeremy.png"
 import iconOptions from "../images/icon-ellipsis.svg"
-import iconWork from "../images/icon-work.svg"
-import iconPlay from "../images/icon-play.svg"
-import iconStudy from "../images/icon-study.svg"
-import iconExercise from "../images/icon-exercise.svg"
-import iconSocial from "../images/icon-social.svg"
-import iconSelfcare from "../images/icon-self-care.svg"
 import stats from "../data.json"
 
 function ModalContainer() {
@@ -30,14 +24,14 @@ function ModalContainer() {
             </div>
             {stats.map(stat => {
                 return (
-                    <div className="modal-stat light-orange-bg">
+                    <div key={stat.title} className={stat.classes}>
                         <div className="modal-stat-header">
-                            <img className="modal-stat-header-img" src={stat.iconSrc} alt="modal stat"/>
+                            <img className="modal-stat-header-img" src={stat.iconUrl} alt="modal stat"/>
                         </div>
                         <div className="modal-stat-footer">
                             <div className="modal-stat-footer-top center">
-                                <h3 className="modal-stat-footer-activity">{stat.title}</h3>
-                                <img className="modal-stat-footer-options" src={iconOptions} alt="icon options"/>
+                                <h3 className="modal-stat-footer-top-activity">{stat.title}</h3>
+                                <img className="modal-stat-footer-top-options" src={iconOptions} alt="icon options"/>
                             </div>
                             <div className="modal-stat-footer-bottom center">
                                 <span className="modal-stat-footer-bottom-time">{stat.timeframes.daily.current}hrs</span>
