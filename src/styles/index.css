@@ -113,6 +113,10 @@ body {
     @apply pale-blue;
 }
 
+.profile-footer-btn.active {
+    @apply font-bold pale-blue;
+}
+
 .modal-stat {
     @apply rounded-2xl;
 }
