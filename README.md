@@ -10,11 +10,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rafdidact/time-tracking-dashboard)
-- Live Site URL: [Add live site URL here](https://hardcore-brattain-8f1920.netlify.app/)
+- Solution URL: [Github.com](https://github.com/rafdidact/time-tracking-dashboard)
+- Live Site URL: [Netlify hosted live site](https://hardcore-brattain-8f1920.netlify.app/)
 
 ## My process
 

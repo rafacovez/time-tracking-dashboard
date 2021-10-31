@@ -22,7 +22,7 @@ body {
 }
 
 .App {
-    @apply w-11/12 mx-auto py-10 max-w-screen-lg min-h-screen center;
+    @apply w-11/12 mx-auto py-10 max-w-screen-lg min-h-screen center flex-col;
 }
 
 .bright-blue-bg {
@@ -159,4 +159,20 @@ body {
 
 .modal-stat-footer-bottom-last {
     @apply desaturated-blue;
+}
+
+.Footer {
+    @apply mt-10 flex lg:absolute lg:bottom-5;
+}
+
+.Footer-text {
+    @apply desaturated-blue;
+}
+
+.Footer-link {
+    @apply desaturated-blue mx-1 pale-blue;
+}
+
+.Footer-link:hover {
+    @apply underline;
 }
